@@ -21,14 +21,14 @@ header {
 
 .logo {
     text-decoration: none;
-    color: #3a6cf4;
+    color: #9300FF;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 1.8em;
 }
 
 .navigation a {
-    color: #3a6cf4;
+    color: #9300FF;
     text-decoration: none;
     font-size: 1.1em;
     font-weight: 500;
@@ -36,7 +36,7 @@ header {
 }
 
 .navigation a:hover {
-    color: #601cfc;
+    color: #9300FF;
 }
 
 section {
@@ -63,7 +63,7 @@ section {
 .main h2 span {
     display: inline-block;
     margin-top: 10px;
-    color: #4e9eff;
+    color: #9300FF;
     font-size: 3em;
     font-weight: 600;
 }
@@ -79,7 +79,7 @@ section {
 
 .main-btn {
     color: #fff;
-    background-color: #3a6cf4;
+    background-color: #9300FF;
     text-decoration: none;
     font-size: 1.1em;
     font-weight: 600;
@@ -92,7 +92,7 @@ section {
 }
 
 .main-btn:hover {
-    background-color: #0a49f6;
+    background-color: #681080;
     transform: scale(1.1);
 }
 
@@ -100,6 +100,12 @@ section {
     color: #fff;
     font-size: 1.7em;
     padding-right: 30px;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #9300FF;
+    transform: scale(1.2); /* Slightly enlarges on hover */
 }
 
 .title {
