@@ -43,14 +43,30 @@ section {
     padding: 100px 200px;
 }
 
+
+
+/* Make Header Transparent Initially */
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 15px 50px;
-    background: #ffffff; /* Adjust color if needed */
+    background: rgba(255, 255, 255, 0); /* Fully transparent */
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    transition: background 0.4s ease-in-out;
+    z-index: 1000;
 }
 
+/* Show Background on Hover */
+header:hover {
+    background: rgba(255, 255, 255, 0.9); /* Slightly visible when hovered */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Logo Styles */
 .logo {
     color: #9300FF;
     font-size: 35px;
@@ -58,11 +74,13 @@ header {
     text-decoration: none;
 }
 
+/* Navigation Styles */
 .navigation {
     display: flex;
     gap: 20px;
 }
 
+/* Links */
 .navigation a {
     color: #9300FF;
     text-decoration: none;
@@ -75,8 +93,8 @@ header {
 
 /* Hover Effect */
 .navigation a:hover {
-    color: #9300FF; /* Change color on hover */
-    transform: scale(1.1); /* Slightly increase size */
+    color: #9300FF; /* Keep color same */
+    transform: scale(1.1);
 }
 
 /* Underline Animation */
