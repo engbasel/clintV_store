@@ -111,7 +111,7 @@ section {
 .title {
     display: flex;
     justify-content: center;
-    color: #3a6cf4;
+    color: #ffffff;
     font-size: 2.2em;
     font-weight: 800;
     margin-bottom: 30px;
@@ -156,7 +156,7 @@ section {
 }
 
 .projects {
-    background-color: #000016;
+    background-color: #2a0335;
 }
 
 .projects .content {
@@ -196,7 +196,7 @@ section {
 
 .project-category {
     font-size: 0.8em;
-    color: #000;
+    color:  #2a0335;;
 }
 
 .project-title {
@@ -221,7 +221,7 @@ section {
 }
 
 .contact .info h3 {
-    color: #000;
+    color: #2a0335;
 }
 
 .contact .info p {
@@ -229,7 +229,7 @@ section {
 }
 
 .footer {
-    background-color: #000016;
+    background-color: #2a0335;
     color: #fff;
     padding: 2em;
     display: flex;
@@ -242,7 +242,7 @@ section {
 }
 
 .footer-title span {
-    color: #3a6cf4;
+    color: #b166e7;
 }
 
 .footer .social-icons a {
